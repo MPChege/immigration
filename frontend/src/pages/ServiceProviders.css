@@ -1,0 +1,25 @@
+.providers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.provider-card {
+  transition: transform 0.2s;
+}
+
+.provider-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.provider-card h3 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.provider-card p {
+  margin: 8px 0;
+  color: #666;
+}
