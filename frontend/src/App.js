@@ -25,7 +25,7 @@ const AppContent = () => {
   return (
     <div className="App min-h-screen bg-gray-50">
       {!isAuthPage && location.pathname !== '/' && <TopNavbar />}
-      <div className={location.pathname !== '/' && !isAuthPage ? 'pt-16 lg:pt-20' : ''}>
+      <div className={location.pathname !== '/' && !isAuthPage ? 'pt-16' : ''}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />

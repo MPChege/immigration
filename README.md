@@ -101,6 +101,15 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
+**Default Admin Credentials:**
+| Field    | Value             |
+|----------|-------------------|
+| Username | `admin`           |
+| Password | `admin123`        |
+| Email    | `admin@example.com` |
+
+> **Note:** Change these credentials in production.
+
 6. Run the development server:
 ```bash
 python manage.py runserver
